@@ -1,0 +1,323 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; */
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+body {
+	background-color: #0b0b0b;
+	font-family: "Roboto Condensed", sans-serif;
+	font-style: 400;
+	font-size: 24px;
+	line-height: 28px;
+	color: #fff;
+}
+
+.header {
+	position: relative;
+}
+
+
+.header__slaider-item {
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.slick-dots {
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	
+}
+
+.slick-dots li {
+	list-style: none;
+
+ padding-left: 15px;
+}
+
+.slick-dots button {
+	font-size: 0;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	color: #fff;
+	border:none;
+}
+
+.slick-dots li.slick-active button {
+	background-color: #000000;
+}
+
+
+.container {
+	max-width: 1230px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.header__top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 20px;
+}
+
+.menu__burger {
+	/* display: none; */
+	display: flex;
+	height: 100%;
+	align-items: center;
+
+
+}
+
+.menu__button {
+	padding: 5px;
+	background-color: transparent;
+
+	border: 1px solid #fff;
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+}
+
+.menu__button-line {
+	display: block;
+	height: 2px;
+	width: 36px;
+	background-color: #fff;
+	margin-top: 10px;
+	margin-left: 6px;
+	margin-bottom: 10px;
+	flex-basis: 16px;
+	border: radius 40px;
+}
+
+.header__top-inner {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	max-width: 1230px;
+	padding: 15px;
+	margin: 0 auto;
+	height: 100vh;
+}
+
+.menu__logo {
+	margin-top: 38px;
+}
+
+.header__content {
+	left: 0;
+	position: relative;
+}
+
+.header__title {
+	font-family: "Roboto", sans-serif;
+	margin: 28px 0 40px 0;
+	font-size: 96px;
+	line-height: 112px;
+}
+
+.header__text {
+	width: 248px;
+}
+
+.header__button {
+	padding: 30px 62px;
+	margin-top: 25px;
+	cursor: pointer;
+	background: rgba(255, 255, 255, 0.15);
+	border: 1px solid #ffffff;
+	box-sizing: border-box;
+	font-family: "Roboto Condensed", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+
+	color: #ffffff;
+}
+
+.tesla__video {
+	max-width: 100%;
+	margin-bottom: 100px;
+}
+
+.specifications__text {
+	display: flex;
+	justify-content: space-around;
+}
+
+.specifications__text-block {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 105px;
+	margin-bottom: 100px;
+}
+
+.specifications__text-title {
+	padding-right: 30px;
+
+}
+
+.specifications__text-number {
+	font-size: 96px;
+	line-height: 112px;
+	font-family: "Roboto", sans-serif;
+	font-style: 400;
+}
+
+.specifications__text-number span {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.specifications__text-type {
+	color: #b70021;
+	padding-right: 30px;
+}
+
+.speed__inner {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+
+.speed__text {
+	width: 303px;
+	padding-right: 58px;
+}
+
+.speed__text-title {
+	margin-bottom: 100px;
+	font-size: 36px;
+	line-height: 42px;
+	font-family: "Roboto Condensed", sans-serif;
+	font-weight: 300;
+
+	color: #b70021;
+}
+
+.plus__inner {
+	display: flex;
+
+	position: relative;
+	margin-bottom: 100px;
+}
+
+.plus__text {
+	left: 0;
+	margin: auto 20px;
+	margin-right: 20px;
+	padding: 0;
+	width: 303px;
+}
+
+.plus__img {
+	margin-right: 58px;
+
+}
+
+ul {
+	list-style: none;
+	text-align: left;
+}
+
+.plus__text-item {
+	text-align: left;
+}
+
+.plus__text-title {
+	font-size: 36px;
+	line-height: 42px;
+	font-family: "Roboto Condensed", sans-serif;
+	font-weight: 300;
+	color: #b70021;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.morenb {
+	font-size: 24px;
+	line-height: 28px;
+	color: #b70021;
+}
+
+.more__text {
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.more__01,
+.more__02 {
+	width: 450px;
+}
+
+.more__01 span {
+	position: absolute;
+	width: 100%;
+}
+
+.footer {
+	background-color: #690102;
+}
+
+.footer__inner {
+	margin-top: 100px;
+	display: flex;
+}
+
+.button__inner {
+	display: flex;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.footer__bottom {
+	cursor: pointer;
+	padding: 30px 62px;
+
+	background: rgba(255, 255, 255, 0.15);
+	border: 1px solid #ffffff;
+	box-sizing: border-box;
+	font-family: "Roboto Condensed", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+
+	color: #ffffff;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.footer__tabs {
+	margin: 83px;
+	display: flex;
+	justify-content: space-around;
+	margin: 83px 105px 20px;
+}
+
+.footer__tabs-item::after {
+	content: "";
+}
